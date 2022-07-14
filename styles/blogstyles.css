@@ -206,3 +206,31 @@ ul li a:hover{
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(165, 23, 252);
   }
+
+@media (max-width: 1100px){
+    #box{
+        display: flex;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    #title{
+        margin: 0;
+        padding: 0;
+        float: none;
+        font-size: 80px;
+    }
+    #box nav{
+        margin: 0;
+        margin-top: 20px;
+        padding:0;
+        float: none;
+    }
+    #box ul{
+        margin: 0;
+        float: none;
+    }
+    #box ul li a{
+        font-size: 40px;
+    }
+}
